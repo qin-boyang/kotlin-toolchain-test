@@ -1,0 +1,11 @@
+product: jvm/app
+
+dependencies:
+  - org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3
+
+test-dependencies:
+  - io.ktor:ktor-client-core:2.3.13
+  - io.ktor:ktor-client-cio:2.3.13
+
+settings:
+  junit: junit-5
